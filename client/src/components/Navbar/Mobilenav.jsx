@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import { GrContact } from "react-icons/gr";
 import { FiMenu } from "react-icons/fi";
-import { AiFillWallet } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 import { motion } from "framer-motion";
 import Image from "../../assets/images/logo.png";
 import { TbAlignBoxLeftTopFilled } from "react-icons/tb";
-import { HiRectangleStack } from "react-icons/hi";
+import { BiCoinStack } from "react-icons/bi";
 import { FaGamepad } from "react-icons/fa";
 import { AiOutlineQuestionCircle } from "react-icons/ai";
 import { AiOutlineHome } from "react-icons/ai";
@@ -143,7 +142,7 @@ const Mobilenav = () => {
             )}
           >
             <motion.div layout="position">
-              <HiRectangleStack className=" w-12 h-12  " />
+              <BiCoinStack className=" w-12 h-12  " />
             </motion.div>
           </motion.div>
           {/*///////////////////////////////// */}
