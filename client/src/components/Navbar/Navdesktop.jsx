@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { AiFillWallet } from "react-icons/ai";
 
-import { BsStack } from "react-icons/Bs";
 const Navdesktop = () => {
   const [isHovered, setIsHovered] = useState(false);
   const navigate = useNavigate();
@@ -56,9 +55,7 @@ const Navdesktop = () => {
             onClick={() => navigate("/Stacking")}
           >
             <h1 className="m-auto">Stacking</h1>
-            <div className="m-auto pl-3">
-              <BsStack />
-            </div>
+            <div className="m-auto pl-3"></div>
           </div>
 
           <button
