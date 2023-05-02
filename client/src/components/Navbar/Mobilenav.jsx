@@ -5,9 +5,9 @@ import { AiFillWallet } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 import { motion } from "framer-motion";
 import Image from "../../assets/images/logo.png";
-
-import { BsStack } from "react-icons/Bs";
-import { GiGamepad } from "react-icons/Gi";
+import { TbAlignBoxLeftTopFilled } from "react-icons/tb";
+import { HiRectangleStack } from "react-icons/hi";
+import { IoGameController } from "react-icons/io";
 import { AiOutlineQuestionCircle } from "react-icons/ai";
 import { AiOutlineHome } from "react-icons/ai";
 
@@ -80,7 +80,7 @@ const Mobilenav = () => {
             onClick={() => (navigate("/Games"), handleClick(), handleSwitch())}
           >
             <motion.div layout="position">
-              <GiGamepad className=" w-12 h-12  " />
+              <IoGameController className=" w-12 h-12  " />
             </motion.div>
           </motion.div>
 
@@ -109,7 +109,9 @@ const Mobilenav = () => {
             className="flex justify-center items-center w-20 h-20 m-0.5   bg-slate-400  p-1 hover:bg-green-400 "
             onClick={() => (navigate("/Login"), handleClick(), handleSwitch())}
           >
-            <motion.div className="flex"></motion.div>
+            <motion.div className="flex">
+              <TbAlignBoxLeftTopFilled className=" w-12 h-12  " />
+            </motion.div>
           </motion.div>
           {/*///////////////////////////////// */}
 
@@ -141,7 +143,7 @@ const Mobilenav = () => {
             )}
           >
             <motion.div layout="position">
-              <BsStack className=" w-12 h-12  " />
+              <HiRectangleStack className=" w-12 h-12  " />
             </motion.div>
           </motion.div>
           {/*///////////////////////////////// */}
