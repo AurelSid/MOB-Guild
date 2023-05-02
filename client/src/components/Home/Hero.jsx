@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "../../assets/images/controler.png";
-import Logo from "../../assets/images/Logo.png";
+import Logo from "../../assets/images/logo.png";
 import character from "../../assets/images/PolyGame.png";
 import "../../App.css";
 import { useNavigate } from "react-router-dom";
