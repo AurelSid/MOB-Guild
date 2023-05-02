@@ -3,7 +3,7 @@ import Logo from "../../assets/images/logo.png";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { AiFillWallet } from "react-icons/ai";
-import { MdLeaderboard } from "react-icons/Md";
+
 import { BsStack } from "react-icons/Bs";
 const Navdesktop = () => {
   const [isHovered, setIsHovered] = useState(false);
