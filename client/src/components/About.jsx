@@ -3,7 +3,6 @@ import React from "react";
 import "../App.css";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import character from "../assets/images/Polygame.png";
 import quest from "../assets/images/quest.png";
 import reward from "../assets/images/reward.png";
 import leaderboard from "../assets/images/leaderboard.png";
