@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import Image from "../../assets/images/logo.png";
 import { TbAlignBoxLeftTopFilled } from "react-icons/tb";
 import { HiRectangleStack } from "react-icons/hi";
-import { IoGameController } from "react-icons/io";
+import { FaGamepad } from "react-icons/fa";
 import { AiOutlineQuestionCircle } from "react-icons/ai";
 import { AiOutlineHome } from "react-icons/ai";
 
@@ -80,7 +80,7 @@ const Mobilenav = () => {
             onClick={() => (navigate("/Games"), handleClick(), handleSwitch())}
           >
             <motion.div layout="position">
-              <IoGameController className=" w-12 h-12  " />
+              <FaGamepad className=" w-12 h-12  " />
             </motion.div>
           </motion.div>
 
